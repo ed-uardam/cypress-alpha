@@ -74,7 +74,7 @@ describe('Esperas', () => {
 			}
 		*/
 
-		cy.('#buttonListDOM').click()
+		cy.get('#buttonListDOM').click()
 		cy.wait(5000)
 			//vai pausar o script por 5s
 			//a aplicação continua
